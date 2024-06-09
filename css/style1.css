@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    background-color: #ffffff;
+    padding-top: 20px;
+    color: white;
+    box-shadow: 3px 0 5px rgba(0, 0, 0, 0.3);
+}
+
+img {
+    margin-bottom: 0;
+    max-height: 33px;
+    width: auto;
+    margin-top: -3px;
+    margin-left: .8rem;
+}
+
+.user {
+    width: 2.1rem;
+    height: auto;
+    border-radius: 50%;
+    margin-left: 1.5rem;
+}
+
+
+.user {
+    float: left;
+    width: 34px; /* Görüntünün genişliğini ayarlayın */
+    height: auto;
+    margin-top: 9px;
+}
+
+.text {
+    justify-content: left;
+    height: 33px; /* Görüntünün yüksekliği ile aynı olmalı */
+    color: #606469;
+    margin-top: 24px;
+    margin-left: 68px;
+}
+
+.d-block {
+    display: block;
+    font-size: 16px;
+    font-weight: 1;
+
+}
+
+.kecid1 {
+    border-left: 50px;
+    color: black;
+    display: block;
+    transition: margin-left .3s linear, opacity .3s ease, visibility .3s ease;
+    padding: 13px 9px;
+    margin-left: -1.2rem;
+    mso-list-type: none;
+    padding-top: 12px;
+}
+
+
+.kecid {
+    border-left: 50px;
+    color: black;
+    display: block;
+    transition: margin-left .3s linear, opacity .3s ease, visibility .3s ease;
+    padding: 2px 9px;
+    margin-left: -1.2rem;
+    mso-list-type: none;
+    padding-top: 12px;
+    margin-top: -16px;
+}
+
+.kecid:hover {
+    background-color: gainsboro;
+    border-radius: 4px;
+    height: 31px
+
+}
+
+.kecid1:hover {
+    background-color: gainsboro;
+    border-radius: 4px;
+    height: 18px
+
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.xett {
+    margin-top: 18px;
+}
+
+.xett2 {
+    margin-top: 599px;
+}
+
+
+.yazi {
+    color: #869099;
+    margin-left: 265px;
+}
+
+.cixis {
+    color: #4C4C4C;
+    margin-left: 1445px;
+    position: relative;
+}
+
+.fa-sign-out-alt {
+    padding-top: 27px
+}
+
+.Aztu{
+    color: black;
+    padding-left: 50px;
+    margin-top: -27px;
+    position: sticky;
+}
+
+.bura{
+    padding-top: 13px;
+    color: black;
+    position: absolute;
+    top: 14px;
+
+}
+
+
+
+
+
+

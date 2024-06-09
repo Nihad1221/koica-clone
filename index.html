@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yan Menü</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+          integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<aside>
+    <div class="sidebar">
+        <div class="logo-block">
+            <img src="image/logo.png" width="100px"
+                 alt="logo" class="logo">
+        </div>
+        <a href="#active"><i class="fa-solid fa-clipboard"></i> Elanlar</a>
+        <a href="#news"><i class="fa-solid fa-user-check"></i> Şəxsi məlumatı</a>
+        <a href="#contact"><i class="fa-solid fa-calendar-days"></i> Dərs cədvəli</a>
+        <a href="#about"><i class="fa-solid fa-address-card"></i> Transkript</a>
+        <a href="#fennler" onclick="toggleSubCategories('fennler')">
+            <i class="fa-solid fa-book-open"></i> Fennler
+            <i class="fa-solid fa-chevron-down"></i>
+            <div class="info-circle">6</div>
+        </a>
+        <ul class="no-bullet" id="fennlerSubCategories" style="display: none;">
+            <li>
+                <a herf="#fenn 1"> Avtomatlaşdırmanın texniki vasitələri</a>
+            </li>
+            <li>
+                <a herf="#fenn 2"> Dövrələr nəzəriyyəsi-1</a>
+            </li>
+            <li>
+                <a herf="#fenn 3"> Kimya</a>
+            </li>
+            <li>
+                <a herf="#fenn 4"> Riyazi analiz-1</a>
+            </li>
+            <li>
+                <a herf="#fenn 5"> Tətbiqi fizika</a>
+            </li>
+            <li>
+                <a herf="#fenn 5"> Xarici dildə işgüzar və akademik komminukasiya-2(İngilis)</a>
+            </li>
+
+
+
+
+
+
+
+    </div>
+</aside>
+<script>
+    function toggleSubCategories(categoryId) {
+        var subCategories = document.getElementById(categoryId + 'SubCategories');
+        if (subCategories.style.display === 'none') {
+            subCategories.style.display = 'block';
+        } else {
+            subCategories.style.display = 'none';
+        }
+    }
+
+
+</script>
+
+
+
+
+
+</body>
+</html>
+
+</body>
+</html>
